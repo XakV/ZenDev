@@ -1,0 +1,3 @@
+[submodule "theme/brutalist"]
+	path = theme/brutalist
+	url = git@github.com:XakV/brutebird.git
