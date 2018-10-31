@@ -1,6 +1,6 @@
 Title: Masquerade of the Wifi Device
 Date: 2018-10-30 23:20
-Category: FirewallD
+Category: Posts
 Tags: Linux, Firewall, libvirt
 Slug: masquerade-your-wifi
 Authors: Zach Villers
