@@ -8,7 +8,7 @@ Summary: Do not brain this. It hurts. It's the magic config your laptop needs.
 
 ### Ever try to run libvirt on your laptop WiFi?
 
-Please untie the noose, it will be ok. I think. The long and short of this is, libvirtd can use a WiFi device. Which creates pain for me. Setting the wifi device to forward ipv4 and then using firewalld to masquerade packets between the laptop's wifi and ethernet device seems to work.
+Please untie the noose, it will be ok....I think. The long and short of this is, libvirtd can't use a WiFi device. Which creates pain for me. Setting the wifi device to forward ipv4 and then using firewalld to masquerade packets between the laptop's wifi and ethernet device seems to work.
 
 **Like This**
 
