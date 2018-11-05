@@ -20,16 +20,22 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Python.org', 'http://python.org/')
+         )
 
 # Social widget
 SOCIAL = (('Github', 'https://github.com/XakV'),
           ('Pagure.io', 'https://pagure.io/user/aikidouke'),
           ('Fedora - Aikidouke', 'https://admin.fedoraproject.org/accounts/user/view/aikidouke'),
-          ('Fosstodon.org - Denderix', 'https://fosstodon.org/web/accounts/45241'),)
+          ('Fosstodon.org - Denderix', 'https://fosstodon.org/web/accounts/45241'))
 
 DEFAULT_PAGINATION = 10
 
 # Theme Config
-THEME = "theme/brutalist"
+import bulrush
+THEME = "theme/bulrush/bulrush"
+JINJA_ENVIRONMENT = bulrush.ENVIRONMENT
+JINJA_FILTERS = bulrush.FILTERS
+
+PLUGIN_PATHS = 'plugins'
+PLUGINS = ['assets']

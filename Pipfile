@@ -5,7 +5,19 @@ name = "pypi"
 
 [packages]
 pelican = "*"
-markdown = "*"
+webassets = "*"
+markup = "*"
+cssmin = "*"
+slimit = "*"
+ply = "*"
+Markdown = "*"
+HTMLParser = "*"
+pyScss = "*"
+libsass = "*"
+pexpect = "*"
+bulrush = "*"
+lessc = "*"
+requests = "*"
 
 [dev-packages]
 
