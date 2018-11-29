@@ -9,3 +9,5 @@ bin/**
 lib/**
 plugins/**
 theme/**
+.idea/**
+*bak
