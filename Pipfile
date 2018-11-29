@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 pelican = "*"
 markdown = "*"
+bulrush = "*"
+lessc = "*"
 
 [requires]
 python_version = "3.7"
